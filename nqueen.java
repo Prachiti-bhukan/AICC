@@ -14,6 +14,7 @@ public class nqueen{
         {
             if(cols[col]==false && ndig[row+col]==false && rdig[row-col+(board.length-1)]==false)
             {
+                System.out.println("Lets begin this journey");
                 board[row][col]= true;
                 cols[col]= true;
                 rdig[row-col+(board.length-1)]= true;
